@@ -23,10 +23,10 @@ const greeting = {
   username: "Nawlo",
   title: "Hi all, I'm Muhmmad",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Laravel / PHP and some other cool libraries and frameworks for +3 years."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Laravel / PHP and some other cool libraries and frameworks for +4 years."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/12I2-kZpUWsUkGGIgP1PJUxM9p-oY5TJL/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1HbtkaTopv1-ZDhES3tJGSksVpdI7xZDb/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,8 +34,8 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Muhammad-Nawlo",
-  linkedin: "https://www.linkedin.com/in/muhammad-nawlo-259524231",
-  gmail: "nawlomuhammadit@gmail.com",
+  linkedin: "https://www.linkedin.com/in/muhammad-nawlo",
+  gmail: "eng.muhammad.nawlo.it@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -119,7 +119,7 @@ const educationInfo = {
       schoolName: "Ameen institution",
       logo: '',
       subHeader: "Bachelor's degree",
-      duration: "04/2018 - 07/2019",
+      duration: "2018 - 2019",
       desc: "Score : 93.7%",
       descBullets: [
       ]
@@ -128,8 +128,8 @@ const educationInfo = {
       schoolName: "Aleppo University",
       logo: require("./assets/images/university-aleppo.jpeg"),
       subHeader: "Informatics Engineer",
-      duration: "11/2019 - Present,",
-      desc: "I am in my last year",
+      duration: "2019 - 2024",
+      desc: "Score : 79.80%",
       descBullets: [
       ]
     },
@@ -170,7 +170,7 @@ const workExperiences = {
       role: "Backend Developer",
       company: "Automata4",
       companylogo: require("./assets/images/automata.png"),
-      date: "08/2020 - 02/2021,",
+      date: "08/2020 - 02/2021",
       desc: "Automata4 Group is a Syrian company dedicated to providing high quality custom IT solutions and Consulting services.",
       descBullets: [
         'Working on Bank systems',
@@ -182,7 +182,7 @@ const workExperiences = {
       role: "Full-Stack Developer",
       company: "Remocolla (SMA Group)",
       companylogo: require("./assets/images/sma.png"),
-      date: "08/2021 - 11/2022,",
+      date: "08/2021 - 11/2022",
       desc: "RemoColla is a Japanese ICT company located in Tokyo. It oﬀers high-quality business and ICT consulting services as well as software application"
       , descBullets: [
         'Working on ERP Systems',
@@ -195,7 +195,7 @@ const workExperiences = {
       role: "Full-Stack Developer",
       company: "Prokoders",
       companylogo: require("./assets/images/prokoders.jpeg"),
-      date: "04/2023 - 10/2023,",
+      date: "04/2023 - 10/2023",
       desc: "Prokoders drives growth and innovation globally through cutting-edge software solutions."
       , descBullets: [
         'Working on CMS Systems',
@@ -203,6 +203,18 @@ const workExperiences = {
         'Increase SEO in their websites',
         'improving/ﬁxing some issues in previous projects',
         'Managing staging servers',
+      ]
+    },
+    {
+      role: "Full-Stack Developer",
+      company: "Freelancer",
+      companylogo: require("./assets/images/freelancer.png"),
+      date: "01/2024 - present",
+      desc: "Working with Three different people who have their own projects"
+      , descBullets: [
+        'Working on CMS Systems',
+        'Working on open-source E-commerce System called Aimeos',
+        'Working on a medicine platform called Medboss',
       ]
     }
   ]
@@ -223,14 +235,71 @@ const bigProjects = {
   projects: [
     {
       image: '',
-      projectName: "Microframework",
-      projectDesc: "This is a simple implementation of mvc framework via vanilla php",
+      projectName: "Medboss",
+      projectDesc: "Student platform for medical students to study for the national exam",
+      footerLink: [
+        {
+          name: "Visit the website",
+          url: "http://medboss.info"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: '',
+      projectName: "Hermosa Group",
+      projectDesc: "A group of sites related to the medical and cosmetic sector (AUC,Hermosa Allergy,Elite,Hermosa Cosmatic,Hermosa Medical,...)",
+      footerLink: [
+        {
+          name: "AUC",
+          url: "https://24advancedcare.com"
+        },
+        {
+          name: "Hermosa Allergy",
+          url: "https://hermosaallergy.com"
+        }, {
+          name: "Elite",
+          url: "https://eliteendocrinology.com"
+        }, {
+          name: "Hermosa Cosmatic",
+          url: "https://hermosacosmeticcenter.com"
+        },
+        {
+          name: "Hermosa Medical",
+          url: "https://hermosamedicalcenter.com"
+        },
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: '',
+      projectName: "E-Commerce Group",
+      projectDesc: "A group of e-commerce using aimeos framework and customize it",
+      footerLink: [
+        {
+          name: "Hasna Store",
+          url: "https://alhasnaa.site"
+        },
+        {
+          name: "Oriental steps",
+          url: "https://orientalsteps.site"
+        },
+        {
+          name: "Mtgry Store",
+          url: "https://mtgry.site"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: '',
+      projectName: "Mimic",
+      projectDesc: "Social app (developing apis)",
       footerLink: [
         {
           name: "Visit Github Repo",
-          url: "https://github.com/Muhammad-Nawlo/MVC"
+          url: "https://github.com/Muhammad-Nawlo/Mimic"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -254,17 +323,7 @@ const bigProjects = {
           url: "https://github.com/Muhammad-Nawlo/Pop-up_System"
         }
       ]
-    },{
-      image: '',
-      projectName: "Mimic",
-      projectDesc: "I worked in this freelance project (developing apis)",
-      footerLink: [
-        {
-          name: "Visit Github Repo",
-          url: "https://github.com/Muhammad-Nawlo/Mimic"
-        }
-      ]
-    },{
+    }, {
       image: '',
       projectName: "Youtube clone",
       projectDesc: "I created youtube clone using Yii2 framework for improving my skills in this framework",
@@ -274,7 +333,7 @@ const bigProjects = {
           url: "https://github.com/Muhammad-Nawlo/Youtube-Clone"
         }
       ]
-    },{
+    }, {
       image: '',
       projectName: "Shopping Cart",
       projectDesc: "I created youtube clone using Yii2 framework for improving my skills in this framework",
@@ -283,6 +342,18 @@ const bigProjects = {
           name: "Visit Github Repo",
           url: "https://github.com/Muhammad-Nawlo/Shopping-Cart"
         }
+      ]
+    },
+    {
+      image: '',
+      projectName: "Micro framework",
+      projectDesc: "This is a simple implementation of mvc framework via vanilla php",
+      footerLink: [
+        {
+          name: "Visit Github Repo",
+          url: "https://github.com/Muhammad-Nawlo/MVC"
+        }
+        //  you can add extra buttons here.
       ]
     },
   ],
@@ -303,7 +374,7 @@ const achievementSection = {
       subtitle:
         "Passionate about networking, pursuing CCNA for the sheer love of it.",
       image: require("./assets/images/ccna.jpg"),
-      imageAlt: "ccna image",
+      imageAlt: "CCNA",
       footerLink: [
         // {
         //   name: "Certification",
@@ -324,7 +395,19 @@ const achievementSection = {
       subtitle:
         "Starting to take google course in IT Support",
       image: require("./assets/images/itSupport.png"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "IT Support",
+      footerLink: [
+        // {
+        //   name: "View Google Assistant Action",
+        //   url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        // }
+      ]
+    },    {
+      title: "Server Administration",
+      subtitle:
+        "Taking MCSA Course from New Horizon Center",
+      image: require("./assets/images/mcsa.jpeg"),
+      imageAlt: "Server Administration",
       footerLink: [
         // {
         //   name: "View Google Assistant Action",
@@ -398,7 +481,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+963953211985",
-  email_address: "nawlomuhammadit@gmail.com"
+  email_address: "eng.muhammad.nawlo.it@gmail.com"
 };
 
 // Twitter Section
