@@ -290,6 +290,21 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
+    },    {
+      image: '',
+      projectName: "Multi-service residential complex",
+      projectDesc: "A microservice project for managing residential complex",
+      footerLink: [
+        {
+          name: "Dashboard Repo",
+          url: "https://github.com/Muhammad-Nawlo/dashboard-city-management-system"
+        },
+        {
+          name: "Backend Repo",
+          url: "https://github.com/Muhammad-Nawlo/backend-city-management-system"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
       image: '',
