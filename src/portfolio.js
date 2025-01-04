@@ -290,7 +290,8 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },    {
+    },
+    {
       image: '',
       projectName: "Multi-service residential complex",
       projectDesc: "A microservice project for managing residential complex",
@@ -417,7 +418,7 @@ const achievementSection = {
         //   url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         // }
       ]
-    },    {
+    }, {
       title: "Server Administration",
       subtitle:
         "Taking MCSA Course from New Horizon Center",
