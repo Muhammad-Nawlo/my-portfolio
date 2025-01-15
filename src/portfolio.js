@@ -293,7 +293,7 @@ const bigProjects = {
     },
     {
       image: '',
-      projectName: "Multi-service residential complex",
+      projectName: "Multi-Service residential complex",
       projectDesc: "A microservice project for managing residential complex",
       footerLink: [
         {
