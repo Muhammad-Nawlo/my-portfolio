@@ -297,11 +297,11 @@ const bigProjects = {
       projectDesc: "A microservice project for managing residential complex",
       footerLink: [
         {
-          name: "Dashboard Repo",
+          name: "Dashboard Repository",
           url: "https://github.com/Muhammad-Nawlo/dashboard-city-management-system"
         },
         {
-          name: "Backend Repo",
+          name: "Backend Repository",
           url: "https://github.com/Muhammad-Nawlo/backend-city-management-system"
         }
         //  you can add extra buttons here.
