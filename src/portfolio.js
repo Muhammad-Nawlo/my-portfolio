@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Laravel / PHP and some other cool libraries and frameworks for +4 years."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1HbtkaTopv1-ZDhES3tJGSksVpdI7xZDb/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1FlR_CAksg3Wlrq7Fq8LGmHmf78SjdF1x/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -216,6 +216,18 @@ const workExperiences = {
         'Working on open-source E-commerce System called Aimeos',
         'Working on a medicine platform called Medboss',
       ]
+    }, {
+      role: "Full-Stack Developer",
+      company: "Reterra",
+      companylogo: require("./assets/images/reterra.jpg"),
+      date: "01/2025 - 06/2025",
+      desc: "Reterra is a cutting-edge prop-tech company driving the real estate market forward with innovative solutions"
+      , descBullets: [
+        'Working on Real estate system',
+        'Working on mini CMS system',
+        'Working on mini ERP system',
+        'Setup server for development, staging, production environment',
+      ]
     }
   ]
 };
@@ -233,18 +245,7 @@ const openSource = {
 const bigProjects = {
   title: "Projects",
   projects: [
-    {
-      image: '',
-      projectName: "Medboss",
-      projectDesc: "Student platform for medical students to study for the national exam",
-      footerLink: [
-        {
-          name: "Visit the website",
-          url: "http://medboss.info"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
+
     {
       image: '',
       projectName: "Hermosa Group",
@@ -253,6 +254,12 @@ const bigProjects = {
         {
           name: "AUC",
           url: "https://24advancedcare.com"
+        }, {
+          name: "ACT",
+          url: "https://autismcaretherapy.com"
+        }, {
+          name: "ALS",
+          url: "https://autismlearningspace.com"
         },
         {
           name: "Hermosa Allergy",
@@ -269,6 +276,39 @@ const bigProjects = {
           url: "https://hermosamedicalcenter.com"
         },
         //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: '',
+      projectName: "Medboss",
+      projectDesc: "Student platform for medical students to study for the national exam",
+      footerLink: [
+        {
+          name: "Visit the website",
+          url: "http://medboss.info"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: '',
+      projectName: "Reterra",
+      projectDesc: "Real estate management",
+      footerLink: [
+        {
+          name: "Visit the website",
+          url: "https://reterra.io"
+        }
+      ]
+    }, {
+      image: '',
+      projectName: "Prokoders",
+      projectDesc: "IT Company",
+      footerLink: [
+        {
+          name: "Visit the website",
+          url: "https://prokoders.com"
+        }
       ]
     },
     {
