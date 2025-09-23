@@ -23,7 +23,7 @@ const greeting = {
   username: "Nawlo",
   title: "Hi all, I'm Muhmmad",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Laravel / PHP and some other cool libraries and frameworks for +4 years."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with Laravel / PHP JavaScript / React / Nodejs and some other cool libraries and frameworks for +5 years."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1FlR_CAksg3Wlrq7Fq8LGmHmf78SjdF1x/view?usp=sharing", // Set to empty to hide the button
@@ -55,7 +55,9 @@ const skillsSection = {
       "⚡ Develop server-side components and functionality."
     ), emoji(
       "⚡ Make efficient APIs."
-    ),
+    ), emoji(
+      "⚡ Manage multi environment of servers."
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -156,6 +158,9 @@ const techStack = {
     {
       Stack: "Laravel/PHP",
       progressPercentage: "80%"
+    },{
+      Stack: "Manage Servers",
+      progressPercentage: "70%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -228,6 +233,19 @@ const workExperiences = {
         'Working on mini ERP system',
         'Setup server for development, staging, production environment',
       ]
+    },
+    {
+      role: "Full-Stack Developer",
+      company: "Azurreo",
+      companylogo: require("./assets/images/azurreo.png"),
+      date: "06/2025 - present",
+      desc: "Azurreo is a dedicated Azure expert that empowers organizations to successfully leverage the full power of the Microsoft Cloud"
+      , descBullets: [
+        'Working on an internal tools',
+        'Working on teams\'s issues',
+        'Develop notifications system',
+        'Upgrading all the internal tools',
+      ]
     }
   ]
 };
@@ -245,7 +263,6 @@ const openSource = {
 const bigProjects = {
   title: "Projects",
   projects: [
-
     {
       image: '',
       projectName: "Hermosa Group",
