@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with Laravel / PHP JavaScript / React / Nodejs and some other cool libraries and frameworks for +5 years."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1FlR_CAksg3Wlrq7Fq8LGmHmf78SjdF1x/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/18ub8yk9Cc6B-_s6i5VhmrP1Lq4HkZJY3/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -239,7 +239,7 @@ const workExperiences = {
       company: "Azurreo",
       companylogo: require("./assets/images/azurreo.png"),
       date: "06/2025 - present",
-      desc: "Azurreo is a dedicated Azure expert that empowers organizations to successfully leverage the full power of the Microsoft Cloud"
+      desc: "Azurreo is a global telecom-outsourcing and technical services company with more than 15 years of experience in the telecommunications field"
       , descBullets: [
         'Working on an internal tools',
         'Working on teams\'s issues',
