@@ -23,10 +23,13 @@ const greeting = {
   username: "Nawlo",
   title: "Hi all, I'm Muhmmad",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with Laravel / PHP JavaScript / React / Nodejs and some other cool libraries and frameworks for +5 years."
+    `Senior Full Stack Engineer with 5+ years of experience designing and delivering scalable web applications, ERP systems,
+CMS platforms, and multi-vendor e-commerce solutions. Specialized in Laravel, MERN stack, RESTful APIs, and
+multi-tenant architectures. Strong background in system design, performance optimization, and production server
+management (Linux/VPS).`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/18ub8yk9Cc6B-_s6i5VhmrP1Lq4HkZJY3/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1N3z7jbmxjjpszkbRMPikKBKvxot6v6wR/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -158,7 +161,7 @@ const techStack = {
     {
       Stack: "Laravel/PHP",
       progressPercentage: "80%"
-    },{
+    }, {
       Stack: "Manage Servers",
       progressPercentage: "70%"
     },
@@ -348,6 +351,36 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
+
+    {
+      image: '',
+      projectName: "Filament Sitemap Generator",
+      projectDesc: "Filament plugin to generate XML sitemaps with splitting, news, images, alternates, and search-engine ping",
+      footerLink: [
+        {
+          name: "Github Link",
+          url: "https://github.com/Muhammad-Nawlo/filament-sitemap-generator"
+        },
+        {
+          name: "Plugin Link",
+          url: "https://filamentphp.com/plugins/muhammad-nawlo-sitemap-generator"
+        }
+      ]
+    },    {
+      image: '',
+      projectName: "Filament Scout Manager",
+      projectDesc: "A Filament plugin to manage your Laravel Scout search setup from an admin panel.",
+      footerLink: [
+        {
+          name: "Github Link",
+          url: "https://github.com/Muhammad-Nawlo/filament-scout-manager"
+        },
+        {
+          name: "Plugin Link",
+          url: "https://filamentphp.com/plugins/muhammad-nawlo-scout-manager"
+        }
+      ]
+    },
     {
       image: '',
       projectName: "Multi-Service residential complex",
@@ -530,7 +563,7 @@ const talkSection = {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      event_url: "https://www.facebook.com/share/p/1C5mApnWXG/"
     }
   ],
   display: false // Set false to hide this section, defaults to true
