@@ -111,6 +111,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     },
+    {
+      skillName: "servers",
+      fontAwesomeClassname: "fa fa-server"
+    },
+    {
+      skillName: "jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -162,8 +170,11 @@ const techStack = {
       Stack: "Laravel/PHP",
       progressPercentage: "80%"
     }, {
-      Stack: "Manage Servers",
+      Stack: "Manage Environments (Dev/Staging/Production)",
       progressPercentage: "70%"
+    }, {
+      Stack: "DevOps",
+      progressPercentage: "60%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -241,13 +252,25 @@ const workExperiences = {
       role: "Full-Stack Developer",
       company: "Azurreo",
       companylogo: require("./assets/images/azurreo.png"),
-      date: "06/2025 - present",
+      date: "06/2025 - 04/2026",
       desc: "Azurreo is a global telecom-outsourcing and technical services company with more than 15 years of experience in the telecommunications field"
       , descBullets: [
         'Working on an internal tools',
         'Working on teams\'s issues',
         'Develop notifications system',
         'Upgrading all the internal tools',
+      ]
+    },
+        {
+      role: "DevOps Engineer",
+      company: "TNEX",
+      companylogo: require("./assets/images/tnex.png"),
+      date: "04/2026 - present",
+      desc: "T-NEX is a German software and AI solutions company operating as T-Nex GmbH. The company focuses on custom software development, AI-powered business tools, compliance systems, and digital transformation services.",
+      descBullets: [
+        "Developing pipelines",
+        'Managing Servers',
+        'CI/CD',
       ]
     }
   ]
@@ -366,7 +389,7 @@ const bigProjects = {
           url: "https://filamentphp.com/plugins/muhammad-nawlo-sitemap-generator"
         }
       ]
-    },    {
+    }, {
       image: '',
       projectName: "Filament Scout Manager",
       projectDesc: "A Filament plugin to manage your Laravel Scout search setup from an admin panel.",
