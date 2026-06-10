@@ -29,7 +29,7 @@ multi-tenant architectures. Strong background in system design, performance opti
 management (Linux/VPS).`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1N3z7jbmxjjpszkbRMPikKBKvxot6v6wR/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/169HdyrFtHlerMORJRidH5Xiu9GFi2cQz/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
