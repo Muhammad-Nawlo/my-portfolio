@@ -21,15 +21,14 @@ const illustration = {
 
 const greeting = {
   username: "Nawlo",
-  title: "Hi all, I'm Muhmmad",
+  title: "Hi all, I'm Muhammad",
   subTitle: emoji(
-    `Senior Full Stack Engineer with 5+ years of experience designing and delivering scalable web applications, ERP systems,
-CMS platforms, and multi-vendor e-commerce solutions. Specialized in Laravel, MERN stack, RESTful APIs, and
-multi-tenant architectures. Strong background in system design, performance optimization, and production server
-management (Linux/VPS).`
+    `Senior Full-Stack Engineer with 5+ years building and running business-critical systems end to end: GRC/compliance
+platforms, ERP, banking, CMS and multi-vendor e-commerce. I deliver across the full stack (ASP.NET Core, Laravel,
+Node.js, React/Next.js) and own what happens after the merge: Docker, CI/CD pipelines, AWS (ECS, RDS) with Terraform
+and Linux production servers. Native Arabic speaker, fluent in English.`
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1mYG_N31kO--JH8GKpNfO3nj4hgbSm2gl/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: `${process.env.PUBLIC_URL}/Muhammad_Nawlo_CV.pdf`, // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,18 +48,18 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SENIOR FULL-STACK ENGINEER · .NET · LARAVEL · REACT/NEXT.JS · AWS & DEVOPS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+      "⚡ Build business-critical platforms: GRC/compliance, ERP, banking, CMS and multi-vendor e-commerce"
     ), emoji(
-      "⚡ Create responsive and user-friendly web pages"
+      "⚡ Design secure backends and REST APIs with ASP.NET Core, Laravel and Node.js, including RBAC, claims-based auth and multi-tenancy"
     ), emoji(
-      "⚡ Develop server-side components and functionality."
+      "⚡ Develop config-driven, responsive frontends with React, Next.js and Tailwind CSS"
     ), emoji(
-      "⚡ Make efficient APIs."
+      "⚡ Model and optimise data in SQL Server, Oracle, MySQL and MongoDB, including reporting and OLAP-style data cubes"
     ), emoji(
-      "⚡ Manage multi environment of servers."
+      "⚡ Ship and operate production: Docker, CI/CD pipelines, AWS (ECS, RDS) with Terraform, Nginx and Linux servers"
     )
   ],
 
@@ -69,56 +68,68 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "C# / .NET",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
       skillName: "Laravel",
       fontAwesomeClassname: "fab fa-laravel"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
       skillName: "PHP",
       fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "docker",
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "React / Next.js",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Sass / CSS",
+      fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "SQL Server / Oracle / MySQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Terraform",
+      fontAwesomeClassname: "fas fa-cubes"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "servers",
-      fontAwesomeClassname: "fa fa-server"
+      skillName: "CI/CD",
+      fontAwesomeClassname: "fab fa-bitbucket"
     },
     {
-      skillName: "jenkins",
+      skillName: "Jenkins",
       fontAwesomeClassname: "fab fa-jenkins"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -130,20 +141,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Ameen institution",
-      logo: '',
-      subHeader: "Bachelor's degree",
-      duration: "2018 - 2019",
-      desc: "Score : 93.7%",
-      descBullets: [
-      ]
-    },
-    {
-      schoolName: "Aleppo University",
+      schoolName: "University of Aleppo",
       logo: require("./assets/images/university-aleppo.jpeg"),
-      subHeader: "Informatics Engineer",
+      subHeader: "Bachelor of Informatics Engineering – Software Engineering",
       duration: "2019 - 2024",
-      desc: "Score : 79.80%",
+      desc: "Grade: 79.8%",
       descBullets: [
       ]
     },
@@ -156,26 +158,26 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Backend (ASP.NET Core / Laravel / Node.js)", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Laravel / PHP",
       progressPercentage: "90%"
     },
     {
-      Stack: "MERN Stack",
-      progressPercentage: "70%"
+      Stack: "Frontend (React / Next.js)",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Laravel/PHP",
+      Stack: "Databases (SQL Server / Oracle / MySQL)",
       progressPercentage: "80%"
     }, {
-      Stack: "Manage Environments (Dev/Staging/Production)",
-      progressPercentage: "70%"
+      Stack: "DevOps (Docker / CI/CD / Linux)",
+      progressPercentage: "75%"
     }, {
-      Stack: "DevOps",
-      progressPercentage: "60%"
+      Stack: "Cloud (AWS / Terraform)",
+      progressPercentage: "70%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -187,91 +189,90 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Backend Developer",
-      company: "Automata4",
-      companylogo: require("./assets/images/automata.png"),
-      date: "08/2020 - 02/2021",
-      desc: "Automata4 Group is a Syrian company dedicated to providing high quality custom IT solutions and Consulting services.",
+      role: "Senior Full-Stack & DevOps Engineer",
+      company: "T-NEX GmbH",
+      companylogo: require("./assets/images/tnex.png"),
+      date: "Apr 2026 – Present",
+      desc: "German software company (Remote) building compliance (GRC), AI-powered business tools and SaaS products.",
       descBullets: [
-        'Working on Bank systems',
-        'Learning how a system work',
-        'Adding more service to a bank system',
-      ]
-    },
-    {
-      role: "Full-Stack Developer",
-      company: "Remocolla (SMA Group)",
-      companylogo: require("./assets/images/sma.png"),
-      date: "08/2021 - 11/2022",
-      desc: "RemoColla is a Japanese ICT company located in Tokyo. It oﬀers high-quality business and ICT consulting services as well as software application"
-      , descBullets: [
-        'Working on ERP Systems',
-        'Creating platform of ERPs management',
-        'Developing chrome extensions',
-        'Managing staging server and git',
-      ]
-    },
-    {
-      role: "Full-Stack Developer",
-      company: "Prokoders",
-      companylogo: require("./assets/images/prokoders.jpeg"),
-      date: "04/2023 - 10/2023",
-      desc: "Prokoders drives growth and innovation globally through cutting-edge software solutions."
-      , descBullets: [
-        'Working on CMS Systems',
-        'Building The core of custom CMS System',
-        'Increase SEO in their websites',
-        'improving/ﬁxing some issues in previous projects',
-        'Managing staging servers',
-      ]
-    },
-    {
-      role: "Full-Stack Developer",
-      company: "Freelancer",
-      companylogo: require("./assets/images/freelancer.png"),
-      date: "01/2024 - present",
-      desc: "Working with Three different people who have their own projects"
-      , descBullets: [
-        'Working on CMS Systems',
-        'Working on open-source E-commerce System called Aimeos',
-        'Working on a medicine platform called Medboss',
-      ]
-    }, {
-      role: "Full-Stack Developer",
-      company: "Reterra",
-      companylogo: require("./assets/images/reterra.jpg"),
-      date: "01/2025 - 06/2025",
-      desc: "Reterra is a cutting-edge prop-tech company driving the real estate market forward with innovative solutions"
-      , descBullets: [
-        'Working on Real estate system',
-        'Working on mini CMS system',
-        'Working on mini ERP system',
-        'Setup server for development, staging, production environment',
+        "Designed a config-driven UI engine (React + ASP.NET Core) that renders nested business processes from JSON, cutting new-form development time by ~70%",
+        "Built a scalable RBAC system for three governance lines with dynamic role-to-resource mapping and claims-based authorization",
+        "Developed a workflow/approval module for the asset lifecycle (programs, contracts, BIA, RIA) with automated e-mail alerts",
+        "Engineered a reporting subsystem (risk matrices, protection-needs, outsourcing) plus an OLAP-style data cube for self-service analysis",
+        "Built REST APIs and configurable import/export pipelines over Oracle and SQL Server (Dapper/EF) for integrations and system migration",
+        "Led security hardening (input validation, encryption at rest and in transit) and coordinated regular penetration testing",
+        "Own production operations: Dockerised .NET + Next.js services behind Nginx, Bitbucket CI/CD with health-checked automatic rollback",
+        "Provisioned and operate AWS infrastructure with Terraform (ECS Fargate, RDS SQL Server, ALB, ECR, Secrets Manager, OIDC deploys)",
       ]
     },
     {
       role: "Full-Stack Developer",
       company: "Azurreo",
       companylogo: require("./assets/images/azurreo.png"),
-      date: "06/2025 - 04/2026",
-      desc: "Azurreo is a global telecom-outsourcing and technical services company with more than 15 years of experience in the telecommunications field"
-      , descBullets: [
-        'Working on an internal tools',
-        'Working on teams\'s issues',
-        'Develop notifications system',
-        'Upgrading all the internal tools',
+      date: "Jun 2025 – Apr 2026",
+      desc: "Paris-based (Remote) global telecom-outsourcing and technical services company with 15+ years in telecommunications.",
+      descBullets: [
+        "Designed and built a real-time notification system used across the company's internal tools",
+        "Led the upgrade and modernisation of the internal tool suite: framework/dependency upgrades, refactoring and bug fixing",
+        "Acted as the go-to engineer for internal teams, triaging and resolving their issues and feature requests",
       ]
     },
-        {
-      role: "DevOps Engineer",
-      company: "TNEX",
-      companylogo: require("./assets/images/tnex.png"),
-      date: "04/2026 - present",
-      desc: "T-NEX is a German software and AI solutions company operating as T-Nex GmbH. The company focuses on custom software development, AI-powered business tools, compliance systems, and digital transformation services.",
+    {
+      role: "Full-Stack Developer",
+      company: "Reterra",
+      companylogo: require("./assets/images/reterra.jpg"),
+      date: "Jan 2025 – Jun 2025",
+      desc: "Prop-tech company building real-estate management solutions.",
       descBullets: [
-        "Developing pipelines",
-        'Managing Servers',
-        'CI/CD',
+        "Developed features for the core real-estate management platform, plus companion mini-CMS and mini-ERP modules",
+        "Set up and managed development, staging and production server environments",
+      ]
+    },
+    {
+      role: "Freelance Full-Stack Developer",
+      company: "Self-employed",
+      companylogo: require("./assets/images/freelancer.png"),
+      date: "Jan 2024 – Present",
+      desc: "Remote projects for clients in Saudi Arabia, the USA and Syria.",
+      descBullets: [
+        "Saudi Arabia client: built and customised multi-vendor e-commerce stores on the Laravel-based Aimeos framework",
+        "USA client: developed and maintain CMS websites for the Hermosa medical group (7+ clinic sites)",
+        "Medboss: built an exam-preparation platform for medical students preparing for the national licensing exam",
+        "Published two open-source Filament (Laravel) plugins listed on filamentphp.com",
+      ]
+    },
+    {
+      role: "Full-Stack Developer",
+      company: "Prokoders",
+      companylogo: require("./assets/images/prokoders.jpeg"),
+      date: "Apr 2023 – Oct 2023",
+      desc: "UAE-based (Remote) software company delivering custom web solutions.",
+      descBullets: [
+        "Built the core of the company's custom CMS, used as the foundation for client websites",
+        "Improved technical SEO across client websites and resolved defects in existing projects",
+        "Managed staging servers and deployments",
+      ]
+    },
+    {
+      role: "Full-Stack Developer",
+      company: "RemoColla (SMA Group)",
+      companylogo: require("./assets/images/sma.png"),
+      date: "Aug 2021 – Nov 2022",
+      desc: "Tokyo-based (Remote) ICT consulting and software company.",
+      descBullets: [
+        "Developed ERP systems and built a central platform for managing multiple ERP instances",
+        "Built Chrome extensions to support client workflows",
+        "Managed the staging server and Git workflow for the development team",
+      ]
+    },
+    {
+      role: "Backend Developer",
+      company: "Automata4",
+      companylogo: require("./assets/images/automata.png"),
+      date: "Aug 2020 – Feb 2021",
+      desc: "Syrian company providing custom IT solutions and consulting services.",
+      descBullets: [
+        "Developed new services and features for a core banking system, within the security and reliability constraints of the financial sector",
       ]
     }
   ]
@@ -292,8 +293,56 @@ const bigProjects = {
   projects: [
     {
       image: '',
-      projectName: "Hermosa Group",
-      projectDesc: "A group of sites related to the medical and cosmetic sector (AUC,Hermosa Allergy,Elite,Hermosa Cosmatic,Hermosa Medical,...)",
+      projectName: "Filament Sitemap Generator",
+      projectDesc: "Open-source Laravel/Filament plugin generating XML sitemaps with splitting, news, image and alternate-language entries, and search-engine ping.",
+      footerLink: [
+        {
+          name: "Plugin Page",
+          url: "https://filamentphp.com/plugins/muhammad-nawlo-sitemap-generator"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/Muhammad-Nawlo/filament-sitemap-generator"
+        }
+      ]
+    }, {
+      image: '',
+      projectName: "Filament Scout Manager",
+      projectDesc: "Open-source Filament plugin to manage Laravel Scout search indexes from the admin panel.",
+      footerLink: [
+        {
+          name: "Plugin Page",
+          url: "https://filamentphp.com/plugins/muhammad-nawlo-scout-manager"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/Muhammad-Nawlo/filament-scout-manager"
+        }
+      ]
+    },
+    {
+      image: '',
+      projectName: "E-Commerce Group (Saudi Arabia)",
+      projectDesc: "Multi-vendor e-commerce stores for a Saudi client, built on and customised from the Laravel-based Aimeos framework.",
+      footerLink: [
+        {
+          name: "Al-Hasnaa Store",
+          url: "https://alhasnaa.site"
+        },
+        {
+          name: "Oriental Steps",
+          url: "https://orientalsteps.site"
+        },
+        {
+          name: "Mtgry Store",
+          url: "https://mtgry.site"
+        }
+      ]
+    },
+    {
+      image: '',
+      projectName: "Hermosa Medical Group (USA)",
+      projectDesc: "CMS websites for a US group of medical and cosmetic clinics: advanced care, autism therapy, allergy, endocrinology and cosmetics.",
       footerLink: [
         {
           name: "AUC",
@@ -309,35 +358,33 @@ const bigProjects = {
           name: "Hermosa Allergy",
           url: "https://hermosaallergy.com"
         }, {
-          name: "Elite",
+          name: "Elite Endocrinology",
           url: "https://eliteendocrinology.com"
         }, {
-          name: "Hermosa Cosmatic",
+          name: "Hermosa Cosmetic",
           url: "https://hermosacosmeticcenter.com"
         },
         {
           name: "Hermosa Medical",
           url: "https://hermosamedicalcenter.com"
         },
-        //  you can add extra buttons here.
       ]
     },
     {
       image: '',
       projectName: "Medboss",
-      projectDesc: "Student platform for medical students to study for the national exam",
+      projectDesc: "Exam-preparation platform for medical students preparing for the national licensing exam.",
       footerLink: [
         {
           name: "Visit the website",
           url: "http://medboss.info"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
       image: '',
       projectName: "Reterra",
-      projectDesc: "Real estate management",
+      projectDesc: "Prop-tech real-estate management platform with companion mini-CMS and mini-ERP modules.",
       footerLink: [
         {
           name: "Visit the website",
@@ -347,7 +394,7 @@ const bigProjects = {
     }, {
       image: '',
       projectName: "Prokoders",
-      projectDesc: "IT Company",
+      projectDesc: "Company website running on the custom CMS core I built at Prokoders.",
       footerLink: [
         {
           name: "Visit the website",
@@ -357,133 +404,50 @@ const bigProjects = {
     },
     {
       image: '',
-      projectName: "E-Commerce Group",
-      projectDesc: "A group of e-commerce using aimeos framework and customize it",
+      projectName: "Residential Complex Management",
+      projectDesc: "Microservice-based system, with a separate backend and dashboard, for managing a multi-service residential compound.",
       footerLink: [
-        {
-          name: "Hasna Store",
-          url: "https://alhasnaa.site"
-        },
-        {
-          name: "Oriental steps",
-          url: "https://orientalsteps.site"
-        },
-        {
-          name: "Mtgry Store",
-          url: "https://mtgry.site"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-
-    {
-      image: '',
-      projectName: "Filament Sitemap Generator",
-      projectDesc: "Filament plugin to generate XML sitemaps with splitting, news, images, alternates, and search-engine ping",
-      footerLink: [
-        {
-          name: "Github Link",
-          url: "https://github.com/Muhammad-Nawlo/filament-sitemap-generator"
-        },
-        {
-          name: "Plugin Link",
-          url: "https://filamentphp.com/plugins/muhammad-nawlo-sitemap-generator"
-        }
-      ]
-    }, {
-      image: '',
-      projectName: "Filament Scout Manager",
-      projectDesc: "A Filament plugin to manage your Laravel Scout search setup from an admin panel.",
-      footerLink: [
-        {
-          name: "Github Link",
-          url: "https://github.com/Muhammad-Nawlo/filament-scout-manager"
-        },
-        {
-          name: "Plugin Link",
-          url: "https://filamentphp.com/plugins/muhammad-nawlo-scout-manager"
-        }
-      ]
-    },
-    {
-      image: '',
-      projectName: "Multi-Service residential complex",
-      projectDesc: "A microservice project for managing residential complex",
-      footerLink: [
-        {
-          name: "Dashboard Repository",
-          url: "https://github.com/Muhammad-Nawlo/dashboard-city-management-system"
-        },
         {
           name: "Backend Repository",
           url: "https://github.com/Muhammad-Nawlo/backend-city-management-system"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: '',
-      projectName: "Mimic",
-      projectDesc: "Social app (developing apis)",
-      footerLink: [
+        },
         {
-          name: "Visit Github Repo",
-          url: "https://github.com/Muhammad-Nawlo/Mimic"
+          name: "Dashboard Repository",
+          url: "https://github.com/Muhammad-Nawlo/dashboard-city-management-system"
         }
       ]
     },
     {
       image: '',
       projectName: "Aphamea",
-      projectDesc: "I created APIs for managing aphamea company (A company specialized in creating pharmaceuticals)",
+      projectDesc: "REST APIs for managing Aphamea, a pharmaceutical manufacturing company.",
       footerLink: [
         {
-          name: "Visit Github Repo",
+          name: "GitHub",
           url: "https://github.com/Muhammad-Nawlo/aphamea"
         }
       ]
     },
     {
       image: '',
-      projectName: "Popup system",
-      projectDesc: "This is a basic implementation of popup builder using laravel framework and sweet alert library",
+      projectName: "Mimic",
+      projectDesc: "REST APIs for a social media application.",
       footerLink: [
         {
-          name: "Visit Github Repo",
-          url: "https://github.com/Muhammad-Nawlo/Pop-up_System"
-        }
-      ]
-    }, {
-      image: '',
-      projectName: "Youtube clone",
-      projectDesc: "I created youtube clone using Yii2 framework for improving my skills in this framework",
-      footerLink: [
-        {
-          name: "Visit Github Repo",
-          url: "https://github.com/Muhammad-Nawlo/Youtube-Clone"
-        }
-      ]
-    }, {
-      image: '',
-      projectName: "Shopping Cart",
-      projectDesc: "I created youtube clone using Yii2 framework for improving my skills in this framework",
-      footerLink: [
-        {
-          name: "Visit Github Repo",
-          url: "https://github.com/Muhammad-Nawlo/Shopping-Cart"
+          name: "GitHub",
+          url: "https://github.com/Muhammad-Nawlo/Mimic"
         }
       ]
     },
     {
       image: '',
-      projectName: "Micro framework",
-      projectDesc: "This is a simple implementation of mvc framework via vanilla php",
+      projectName: "PHP MVC Micro-framework",
+      projectDesc: "A lightweight MVC framework written in vanilla PHP, covering routing, controllers and views from scratch.",
       footerLink: [
         {
-          name: "Visit Github Repo",
+          name: "GitHub",
           url: "https://github.com/Muhammad-Nawlo/MVC"
         }
-        //  you can add extra buttons here.
       ]
     },
   ],
@@ -494,15 +458,15 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Training & Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Professional training alongside my software engineering degree.",
 
   achievementsCards: [
     {
       title: "CCNA",
       subtitle:
-        "Passionate about networking, pursuing CCNA for the sheer love of it.",
+        "Cisco CCNA networking coursework: routing, switching and network fundamentals.",
       image: require("./assets/images/ccna.jpg"),
       imageAlt: "CCNA",
       footerLink: [
@@ -523,7 +487,7 @@ const achievementSection = {
     {
       title: "IT Support",
       subtitle:
-        "Starting to take google course in IT Support",
+        "Google IT Support training: hardware, operating systems, networking and security.",
       image: require("./assets/images/itSupport.png"),
       imageAlt: "IT Support",
       footerLink: [
@@ -535,7 +499,7 @@ const achievementSection = {
     }, {
       title: "Server Administration",
       subtitle:
-        "Taking MCSA Course from New Horizon Center",
+        "MCSA Windows Server Administration course, New Horizons.",
       image: require("./assets/images/mcsa.jpeg"),
       imageAlt: "Server Administration",
       footerLink: [
