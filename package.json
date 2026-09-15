@@ -27,7 +27,7 @@
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
     "check-format": "prettier -c \"./**/*.{js,css,json,scss}\"",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build --dotfiles"
   },
   "eslintConfig": {
     "extends": "react-app"
