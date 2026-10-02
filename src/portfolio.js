@@ -22,11 +22,13 @@ const illustration = {
 const greeting = {
   username: "Nawlo",
   title: "Hi all, I'm Muhammad",
+  location: emoji("📍 Based in Riyadh, Saudi Arabia · Open to full-time roles in KSA"),
   subTitle: emoji(
     `Senior Full-Stack Engineer with 5+ years building and running business-critical systems end to end: GRC/compliance
 platforms, ERP, banking, CMS and multi-vendor e-commerce. I deliver across the full stack (ASP.NET Core, Laravel,
 Node.js, React/Next.js) and own what happens after the merge: Docker, CI/CD pipelines, AWS (ECS, RDS) with Terraform
-and Linux production servers. Native Arabic speaker, fluent in English.`
+and Linux production servers. Based in Riyadh, with hands-on delivery for a Saudi e-commerce client. Native Arabic
+speaker, fluent in English.`
   ),
   resumeLink: `${process.env.PUBLIC_URL}/Muhammad_Nawlo_CV.pdf`, // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -229,7 +231,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Freelance Full-Stack Developer",
+      role: "Freelance Full-Stack Developer (Part-time)",
       company: "Self-employed",
       companylogo: require("./assets/images/freelancer.png"),
       date: "Jan 2024 – Present",
@@ -290,7 +292,18 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
+  subtitle: "Selected work, starting with delivery for a client in Saudi Arabia.",
   projects: [
+    {
+      image: '',
+      projectName: "Case Study: Multi-Vendor E-Commerce Group (Saudi Arabia)",
+      projectDesc: "Client: a business in Saudi Arabia running a group of online stores (Al-Hasnaa, Oriental Steps, Mtgry). " +
+        "Goal: let several vendors sell through each store. " +
+        "Work: built and customised the multi-vendor stores on the Laravel-based Aimeos framework, adapting the storefronts, " +
+        "catalogues and vendor setup to each brand. " +
+        "Stack: PHP, Laravel, Aimeos.",
+      footerLink: []
+    },
     {
       image: '',
       projectName: "Filament Sitemap Generator",
@@ -317,25 +330,6 @@ const bigProjects = {
         {
           name: "GitHub",
           url: "https://github.com/Muhammad-Nawlo/filament-scout-manager"
-        }
-      ]
-    },
-    {
-      image: '',
-      projectName: "E-Commerce Group (Saudi Arabia)",
-      projectDesc: "Multi-vendor e-commerce stores for a Saudi client, built on and customised from the Laravel-based Aimeos framework.",
-      footerLink: [
-        {
-          name: "Al-Hasnaa Store",
-          url: "https://alhasnaa.site"
-        },
-        {
-          name: "Oriental Steps",
-          url: "https://orientalsteps.site"
-        },
-        {
-          name: "Mtgry Store",
-          url: "https://mtgry.site"
         }
       ]
     },
@@ -573,7 +567,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Based in Riyadh and open to full-time opportunities in Saudi Arabia. Call, WhatsApp or e-mail me.",
   number: "+966560637563",
   email_address: "eng.muhammad.nawlo.it@gmail.com"
 };

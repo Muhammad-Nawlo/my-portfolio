@@ -45,6 +45,16 @@
   line-height: 40px;
 }
 
+.greeting-location {
+  font-size: 20px;
+  font-weight: 600;
+  color: $buttonColor;
+  margin: 0 0 0.5rem;
+}
+.dark-mode.greeting-location {
+  color: $buttonHover;
+}
+
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
@@ -102,6 +112,10 @@
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
+    text-align: center;
+  }
+  .greeting-location {
+    font-size: 15px;
     text-align: center;
   }
   .greeting-main {
