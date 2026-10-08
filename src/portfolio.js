@@ -26,7 +26,7 @@ const greeting = {
     "📍 Based in Riyadh, Saudi Arabia · Open to full-time roles in KSA"
   ),
   subTitle: emoji(
-    "Senior Full-Stack & DevOps Engineer with 6+ years building and operating business-critical systems: GRC/compliance, ERP, core banking, healthcare, multi-tenant SaaS and e-commerce. I ship across ASP.NET Core, Laravel, Node.js and React/Next.js, and own releases end to end with Docker, CI/CD, Terraform, AWS and Azure. 30+ production platforms delivered for clients in Saudi Arabia, the USA, Europe, the UAE and Japan."
+    "Senior Full-Stack & DevOps Engineer with 6+ years building and operating business-critical systems: GRC/compliance, ERP, core banking, healthcare, multi-tenant SaaS and e-commerce. I ship across ASP.NET Core, Laravel, Node.js and React/Next.js, and own releases end to end with Docker, CI/CD, Terraform, AWS and Azure. 15+ CI/CD pipelines built and 30+ production platforms delivered for clients in Saudi Arabia, the USA, Europe, the UAE and Japan."
   ),
   resumeLink: `${process.env.PUBLIC_URL}/Muhammad_Nawlo_CV.pdf`, // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
@@ -236,14 +236,14 @@ const workExperiences = {
       company: "T-NEX GmbH",
       companylogo: require("./assets/images/tnex.png"),
       date: "Apr 2026 – Present",
-      desc: "German software company (Remote) building compliance (GRC), AI-powered business tools and SaaS products.",
+      desc: "German software company (Remote) building compliance (GRC), AI-powered business tools and SaaS products; team of 40.",
       descBullets: [
-        "Designed a config-driven UI engine (React + ASP.NET Core) that renders nested business processes from JSON, cutting new-form development time by ~70%",
-        "Built an RBAC system for three governance lines with dynamic role-to-resource mapping and claims-based authorisation",
-        "Developed a workflow and approval module for the asset lifecycle (programs, contracts, BIA, RIA) with automated alerts",
-        "Engineered risk and compliance reporting plus an OLAP-style data cube for self-service analysis",
+        "Built and maintain 15+ CI/CD pipelines with immutable images and health-checked automatic rollback; cut pipeline time by 53% (3 min to 1.4 min)",
+        "Provisioned AWS for new projects with Terraform (ECS Fargate, RDS SQL Server, ALB, ECR, Secrets Manager, OIDC deploys)",
+        "Set up new servers and migrated projects across testing, staging and production; set up Azure Virtual Desktop for developers",
+        "Designed a config-driven UI engine (React + ASP.NET Core) that cut new-form development time by ~70%",
+        "Built claims-based RBAC for three governance lines, a workflow/approval module and OLAP-style compliance reporting",
         "Led security hardening and coordinated regular penetration testing",
-        "Provisioned AWS with Terraform (ECS Fargate, RDS, ALB, ECR, OIDC deploys) behind Bitbucket CI/CD with health-checked automatic rollback",
       ],
     },
     {
@@ -251,13 +251,12 @@ const workExperiences = {
       company: "Azurreo",
       companylogo: require("./assets/images/azurreo.png"),
       date: "Jun 2025 – Apr 2026",
-      desc: "Paris-based (Remote) global telecom-outsourcing and technical services company; team of 80.",
+      desc: "Paris-based (Remote) global telecom-outsourcing and technical services company; engineering team of 10.",
       descBullets: [
-        "Owned the internal tool suite that 8 teams rely on to communicate, coordinate work and generate invoices",
+        "Developed and maintained the internal platform that 8 teams (80 employees) use to communicate, run HR processes and generate invoices",
+        "Shipped new features end to end and resolved production issues reported by the business teams",
         "Designed and built a real-time notification system (WebSockets) used across all internal tools",
-        "Led the modernisation of the tool suite: framework upgrades, refactoring and bug fixing",
-        "Containerised the tools with Docker and replaced manual releases with CI/CD",
-        "Ran the tools' Azure and AWS environments: VMs, storage, access control, backups and monitoring",
+        "Modernised the tool suite, containerised it with Docker and replaced manual releases with CI/CD",
       ],
     },
     {
@@ -267,8 +266,9 @@ const workExperiences = {
       date: "Jan 2025 – Jun 2025",
       desc: "Prop-tech company building real-estate management solutions; team of 10.",
       descBullets: [
-        "Shipped features end to end on the core real-estate platform and built companion mini-CMS and mini-ERP modules",
-        "Provisioned dev, staging and production on AWS (EC2, RDS, S3) with Docker, Nginx, CI/CD, backups and monitoring",
+        "Developed the core platform: real-estate workflow management, project management and a built-in mini CMS",
+        "Built the company's main website",
+        "Managed testing, staging and production servers on AWS (EC2, RDS, S3) with Docker and Nginx, and owned deployments and CI/CD",
       ],
     },
     {
@@ -276,13 +276,13 @@ const workExperiences = {
       company: "Self-employed",
       companylogo: require("./assets/images/freelancer.png"),
       date: "Feb 2021 – Present",
-      desc: "Part-time delivery alongside full-time roles for clients in Saudi Arabia, the USA and Syria.",
+      desc: "Part-time delivery alongside full-time roles for clients in Saudi Arabia, the USA and Syria, from development to servers and CI/CD.",
       descBullets: [
-        "Built and run 12+ stores for a Saudi e-commerce group, then re-platformed them to one headless Aimeos backend and one Next.js storefront released to 16 brand targets",
-        "Sole developer of Strapi + Next.js websites for 8+ US clinics; cut CSS by 57% and patched CVE-2025-66478 across all sites within days",
+        "Build and run 12 online stores for a Saudi client, re-platformed to one headless Aimeos backend and one Next.js storefront released to 16 targets",
+        "Delivered 15 client websites, including the Hermosa medical group and Roqa; cut CSS by 57% and patched CVE-2025-66478 across all sites within days",
         "Dockerised every client stack with GitLab CI/CD that backs up before each release and rolls back automatically",
         "Asraa (Saudi Arabia): bilingual Laravel + Filament project-management platform with Kanban, form builder and HR modules",
-        "Medboss: Laravel REST API (~100 endpoints) plus React student app and admin dashboard",
+        "Medboss: medical lectures and exam-prep platform with a Laravel REST API (~100 endpoints), React student app and admin dashboard",
       ],
     },
     {
@@ -292,8 +292,9 @@ const workExperiences = {
       date: "Apr 2023 – Oct 2023",
       desc: "UAE-based (Remote) software company delivering custom web solutions; team of 20.",
       descBullets: [
-        "Built the core of the company's custom CMS, the foundation for client websites and the company's own site",
-        "Delivered airport-management features, improved technical SEO and managed Linux staging servers",
+        "Developed features for a full airport management system for a major airport in Qatar",
+        "Built the company's main website and the core of its custom CMS, reused for client websites",
+        "Managed testing, staging and production servers, deployments and CI/CD",
       ],
     },
     {
@@ -301,10 +302,11 @@ const workExperiences = {
       company: "RemoColla (SMA Group)",
       companylogo: require("./assets/images/sma.png"),
       date: "Aug 2021 – Nov 2022",
-      desc: "Tokyo-based (Remote) ICT consulting and software company; team of 30.",
+      desc: "Tokyo-based (Remote) ICT consulting and software company; team of 40.",
       descBullets: [
-        "Delivered 32 ERP modules and a central platform for managing multiple ERP instances",
-        "Built REST APIs (Yii2, JWT) for a pharmaceutical manufacturer, plus Angular front ends and Chrome extensions",
+        "Built 35 ERP modules for Japanese clients (user management, attendance management and more) and a central platform for managing ERP instances",
+        "Developed a car e-commerce platform, JavaScript browser extensions for image processing, and REST APIs (Yii2, JWT)",
+        "Managed testing, staging and production servers, deployments and CI/CD",
       ],
     },
     {
@@ -312,9 +314,9 @@ const workExperiences = {
       company: "Automata4",
       companylogo: require("./assets/images/automata.png"),
       date: "Aug 2020 – Feb 2021",
-      desc: "Syrian company providing custom IT solutions and consulting services.",
+      desc: "Syrian custom IT solutions company; team of 15.",
       descBullets: [
-        "Built services for a core banking system under financial-sector security constraints, and for hospital and university ERPs",
+        "Developed backend features and fixed production issues across a core banking system and ERP systems for hospitals and universities",
       ],
     },
   ],
