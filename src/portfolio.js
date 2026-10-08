@@ -251,7 +251,7 @@ const workExperiences = {
       company: "Azurreo",
       companylogo: require("./assets/images/azurreo.png"),
       date: "Jun 2025 – Apr 2026",
-      desc: "Paris-based (Remote) global telecom-outsourcing and technical services company with 15+ years in telecommunications.",
+      desc: "Paris-based (Remote) global telecom-outsourcing and technical services company; team of 80.",
       descBullets: [
         "Owned the internal tool suite that 8 teams rely on to communicate, coordinate work and generate invoices",
         "Designed and built a real-time notification system (WebSockets) used across all internal tools",
@@ -265,7 +265,7 @@ const workExperiences = {
       company: "Reterra",
       companylogo: require("./assets/images/reterra.jpg"),
       date: "Jan 2025 – Jun 2025",
-      desc: "Prop-tech company building real-estate management solutions.",
+      desc: "Prop-tech company building real-estate management solutions; team of 10.",
       descBullets: [
         "Shipped features end to end on the core real-estate platform and built companion mini-CMS and mini-ERP modules",
         "Provisioned dev, staging and production on AWS (EC2, RDS, S3) with Docker, Nginx, CI/CD, backups and monitoring",
@@ -290,7 +290,7 @@ const workExperiences = {
       company: "Prokoders",
       companylogo: require("./assets/images/prokoders.jpeg"),
       date: "Apr 2023 – Oct 2023",
-      desc: "UAE-based (Remote) software company delivering custom web solutions.",
+      desc: "UAE-based (Remote) software company delivering custom web solutions; team of 20.",
       descBullets: [
         "Built the core of the company's custom CMS, the foundation for client websites and the company's own site",
         "Delivered airport-management features, improved technical SEO and managed Linux staging servers",
@@ -301,7 +301,7 @@ const workExperiences = {
       company: "RemoColla (SMA Group)",
       companylogo: require("./assets/images/sma.png"),
       date: "Aug 2021 – Nov 2022",
-      desc: "Tokyo-based (Remote) ICT consulting and software company.",
+      desc: "Tokyo-based (Remote) ICT consulting and software company; team of 30.",
       descBullets: [
         "Delivered 32 ERP modules and a central platform for managing multiple ERP instances",
         "Built REST APIs (Yii2, JWT) for a pharmaceutical manufacturer, plus Angular front ends and Chrome extensions",
