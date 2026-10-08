@@ -7,16 +7,14 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
   blogSection,
   talkSection,
-  achievementSection
+  achievementSection,
 } from "../../portfolio";
 
 function Header() {
   const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
@@ -25,7 +23,7 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="/" className="logo">
+        <a href={`${process.env.PUBLIC_URL}/`} className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
@@ -63,6 +61,20 @@ function Header() {
               <a href="#talks">Talks</a>
             </li>
           )}
+          {viewAchievement && (
+            <li>
+              <a href="#achievements">Training</a>
+            </li>
+          )}
+          <li>
+            <a
+              href={greeting.resumeLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </li>
           <li>
             <a href="#contact">Contact Me</a>
           </li>
