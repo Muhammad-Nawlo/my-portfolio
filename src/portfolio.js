@@ -75,8 +75,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "C# / .NET",
+      skillName: "C# / ASP.NET / .NET",
       fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "WPF Desktop Apps",
+      fontAwesomeClassname: "fas fa-desktop"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "Laravel",
@@ -197,7 +209,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend (ASP.NET Core / Laravel / Node.js)", //Insert stack or technology you have experience in
+      Stack: "Backend (ASP.NET / ASP.NET Core / Laravel / Node.js)", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
